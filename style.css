@@ -4,20 +4,27 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 1.6;
   color: #ffffff;
   background-color: #000000;
   min-height: 100vh;
+  min-width: 320px;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+.main {
+  margin-bottom: auto;
+}
 * {
   box-sizing: border-box;
+}
+.header {
+  background-color: #6f6b67;
 }
 .container {
   max-width: 1440px;
@@ -62,9 +69,29 @@ html {
 .main-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .section {
-  width: 50%;
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #fefefe;
+}
+.section-languages,
+.section-education {
+  border-bottom: 0;
+}
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 30px 30px 30px;
+  border-bottom: 5px solid #b3b1ae;
+}
+.section-profile-title {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
 }
 @media (max-width: 768px) {
   .section {
@@ -72,11 +99,13 @@ html {
   }
 }
 
-
+.my-photo {
+  border: 5px solid rgb(255, 255, 255);
+}
 
 .section-title {
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -110,6 +139,7 @@ html {
   font-size: 30px;
   font-weight: bold;
 }
+/*Rss-school image in footer*/
 .rss-school {
   width: 121px;
   height: 45px;
@@ -122,24 +152,19 @@ html {
   font-size: 25px;
   font-weight: bold;
   color: #ffffff;
-  background-color: #6f6b67;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding: 20px;
+  margin: 0 auto;
 }
 .footer {
   flex-direction: column;
+  background-color: #6f6b67;
+  padding: 20px;
 }
 .footer-link {
   font-size: 30px;
   color: #ffffff;
   text-decoration: none;
   margin: 20px;
-}
-
-
-.header {
-  background-color: #6f6b67;
 }
