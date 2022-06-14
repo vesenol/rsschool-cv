@@ -1,17 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dmitrieva Olga CV</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
+  <header class = "header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#cources" class="nav-link">Cources</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class = "main">
+    <div class="container main-container">
+
+      <!--Profile-->
+      <section class="section" id="profile">
+        <img src="./assets/img/Photo.jpg" alt="Photo">
+        <h1 class="section-title main-title white-red">
+          Dmitrieva Olga
+        </h1>
+        <h3 class="section-subtitle">
+          Junior Front-End Developer
+        </h3>
+      </section>
+
+      <!--Contacts-->
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">
+            Samara, Russia
+          </li>
+          <li class="section-item">
+            Email: <a href="mailto:olga_dmitrieva@gmail.com" title="email">olga_dmitrieva@gmail.com</a>
+          </li>
+          <li class="section-item">
+            Github: <a href="https://github.com/vesenol" title="github">vesenol</a>
+          </li>
+        </ul>
+      </section>
+
+      <!--Summary-->
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          I am a graduate of Samara Aerospace University.<br>My specialty is business-analisys in IT.<br>And now I am a junior Front-End developer.<br>
+          My work experience:
+        </p>
+        <ul class="section-list">
+          <li class="section-item">
+            > QA engineer in NetCracker Technology Corp. (05/2021-present)
+          </li>
+          <li class="section-item">
+            > Business Analyst in Delta Security Systems (09/2020-05/2021)
+          </li>
+        </ul>
+      </section>
+
+      <!--Skills-->
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            > HTML5, CSS3
+          </li>
+          <li class="section-item">
+            > JavaScript Basics
+          </li>
+          <li class="section-item">
+            > Git, GitHub
+          </li>
+          <li class="section-item">
+            > VS Code
+          </li>
+        </ul>
+      </section>
+
+      <!--Code-->
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+<pre class="pre"><code>function multiply (a, b) {
+return a * b;
+}</code></pre>
+      </section>
+
+      <!--Cources-->
+      <section class="section" id="cources">
+        <h2 class="section-title">Cources</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            > Open Education - Web-programming
+          </li>
+          <li class="section-item">
+            > SoloLearn - HTML & CSS
+          </li>
+          <li class="section-item">
+            > Code Basics - HTML & CSS
+          </li>
+          <li class="section-item">
+            > RSS School - JavaScript Basics
+          </li>
+        </ul>
+      </section>
+
+      <!--Projects-->
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Rsschool: <a href="https://github.com/vesenol/rsschool-cv/tree/rsschool-cv-html" class="section-item">CV web site</a> 
+          </li>
+        </ul>
+      </section>
+
+      <!--Education-->
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>Bachelor degree Business-IT in Samara Aerospace University (2020)</p>
+      </section>
+
+      <!--Languages-->
+      <section class="section" id="languages">
+        <h2 class="section-title">Languges</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Russian: Native
+          </li>
+          <li class="section-item">
+            English: C1 (according to the online test at <a href="https://efset.org" title="EFSET"></a> and EPAM training test)
+          </li>
+          </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class = "footer">
+    <div class="container footer-container">
+      <div>
+        © 2022 
+        <a href="https://github.com/vesenol" class="footer-link">
+          Me on GitHub
+        </a>
+      </div>
+      <a href="https://rs.school/js/" class="rss-school">
+      </a>
+    </div>
+  </footer>
+
 </body>
+
 </html>

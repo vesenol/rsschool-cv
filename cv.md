@@ -23,7 +23,7 @@ I want to get knowledge and skills in JavaScript in RS School that will be enoug
 
 
 ## Work expirience:
-+ QA enjineer in NetCracker Technology Corp. (05/2021-present)
++ QA engineer in NetCracker Technology Corp. (05/2021-present)
 + Business Analyst in Delta Security Systems (09/2020-05/2021)
 
 
